@@ -18,3 +18,7 @@ body {
     background-image: url('Chalk Outline Big.jpg');
     background-color: black; /* Add the fallback color */
 }
+
+title-container {
+    background-image: linear-gradient(red, yellow);
+}
