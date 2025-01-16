@@ -19,6 +19,12 @@ body {
     background-color: black; /* Add the fallback color */
 }
 
-title-container {
-    background-image: linear-gradient(red, yellow);
+.title-container {
+    background-image: linear-gradient(to right, red, yellow);
+    padding: 1rem; /* Add space around text */
+    text-align: center; /* Center-align the text */
+    color: white; /* Ensure text is visible against the gradient */
+    border-radius: 0.5rem; /* Optional: Add rounded corners */
+    margin: 1rem auto; /* Center the container */
+    width: fit-content; /* Shrink-wrap to content */
 }
